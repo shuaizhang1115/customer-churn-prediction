@@ -74,20 +74,20 @@ Additionally, **SHAP analysis** is used to interpret model predictions and ident
 ### Summary Plots
 The bar plots show the average impact of each feature on the model output.
 
-![Model A Summary](shap_A.png)  
+![Model A Summary](images/shap_A.png)  
 *Model A (raw `tenure`) - SHAP summary*
 
-![Model B Summary](shap_B.png)  
+![Model B Summary](images/shap_B.png)  
 *Model B (`tenure_group`) - SHAP summary*
 
 ### Waterfall Plots for High-Risk Customers
 These plots explain why a specific customer is predicted as a high churn risk.
 
 **Model A (raw `tenure`):**  
-![Model A Waterfall](waterfall_A.png)
+![Model A Waterfall](images/waterfallA.png)
 
 **Model B (`tenure_group`):**  
-![Model B Waterfall](waterfall_B.png)
+![Model B Waterfall](images/waterfallB.png)
 
 **Observation:** Raw `tenure` shows more detailed contribution patterns than grouped `tenure_group`, helping identify key drivers for individual churn risk.
 
