@@ -77,17 +77,17 @@ The bar plots show the average impact of each feature on the model output.
 ![Model A Summary](graph/shap_A.png)  
 *Model A (raw `tenure`) - SHAP summary*
 
-![Model B Summary](graph/images/shap_B.png)  
+![Model B Summary](graph/shap_B.png)  
 *Model B (`tenure_group`) - SHAP summary*
 
 ### Waterfall Plots for High-Risk Customers
 These plots explain why a specific customer is predicted as a high churn risk.
 
 **Model A (raw `tenure`):**  
-![Model A Waterfall](graph/images/waterfallA.png)
+![Model A Waterfall](graph/waterfallA.png)
 
 **Model B (`tenure_group`):**  
-![Model B Waterfall](graph/images/waterfallB.png)
+![Model B Waterfall](graph/waterfallB.png)
 
 **Observation:** Raw `tenure` shows more detailed contribution patterns than grouped `tenure_group`, helping identify key drivers for individual churn risk.
 
